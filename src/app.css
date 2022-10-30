@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  --main:#309594;
+  --main-hover:#309593dc;
+  --secondary:#4863ee;
+  --secondary-hover:#4864eee3;
+  --light-blue:#c6dfff;
+  --disabled:#9ca3af;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
