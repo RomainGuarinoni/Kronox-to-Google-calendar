@@ -12,11 +12,12 @@
     color: var(--main);
     position: relative;
     margin-bottom: 4rem;
+    width: fit-content;
   }
 
   h2::after {
     content: '';
-    width: 70%;
+    width: 80%;
     position: absolute;
     left: 0;
     top: 3rem;

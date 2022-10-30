@@ -3,6 +3,7 @@
   import Script from './pages/Script.svelte';
   import { onMount } from 'svelte';
   import { course } from './store/course';
+  import Data from './pages/Data.svelte';
 
   let selected = 0;
 
@@ -34,7 +35,7 @@
     {#if selected === 0}
       <Script />
     {:else if selected == 1}
-      <p>Page 2</p>
+      <Data />
     {:else if selected == 2}
       <p>Page 3</p>
     {:else}
