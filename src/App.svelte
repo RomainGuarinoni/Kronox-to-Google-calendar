@@ -12,14 +12,14 @@
     const courseTitle = params.get('courseTitle');
     const courses = JSON.parse(params.get('courses'));
 
-    if (!!courseTitle && !!courses) {
-      course.set({
-        courseTitle,
-        courses,
-      });
+    if (!!!courseTitle || !!!courses) return;
 
-      console.log(courses);
-    }
+    course.set({
+      courseTitle,
+      courses,
+    });
+
+    selected = 1;
   }
   onMount(checkCourseInUrl);
 </script>
